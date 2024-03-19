@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lemon&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+
+    
+}
+
+/* Navigation */
+#deskstop-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(132, 121, 150);
+    color: white;
+    padding: 020px;
+
+}
+
+#fcc-name {
+    font-size: 2.0rem;
+    gap: 2em;
+
+}
+.nav-links {
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 2em;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+a:hover {
+    color: silver;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+
+}
+
+#hero {
+
+    text-align: center;
+    
+}
+
+
+/* Banner */
+.banner-name {
+    font-size: 96px;
+    line-height: 100px;
+    color: #fff;
+    font-family: roboto;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.img-background {
+    background-image: url(worship.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(80vh - 60px);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.section-align-center {
+    text-align: center;
+    padding-top: 3%;
+    background-color: rgb(132, 121, 150);
+    color: #fff;
+}
+
+
+.heading {
+    font-size: xx-large;
+    margin-bottom: 0.5em;
+    
+}
+
+/*semons*/
+.sermon {
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Add some spacing between sermons */
+  }
+  
+  .sermon-author{
+    color: #111111; /* Dark Gray for headings */
+    margin-bottom: 5px;
+  }
+  
+  .sermon-links{
+    color: #fff; /* White for links */
+    text-decoration: none;
+  }
+  
+  .sermon-links:hover {
+    text-decoration: underline; /* Underline links on hover for emphasis */
+  }
+  
+  .sermon-links {
+    margin-top: 10px; /* Add some spacing between sermon title and links */
+  }
+  
+
+/* elders*/
+.elders-section{
+    text-align: center;
+    padding-top: 3%;
+    background-color: rgb(132, 121, 150);
+    color: #fff;
+
+}
+
+.elders-pictures {
+    column-width:300px;
+    column-count: 3;
+    background-color: rgb(132, 121, 150);
+    color: #fff;
+    margin-bottom: 1%;
+    padding-top: 3%;
+}
+figure {
+    position: relative;
+    max-width: 200px;
+    margin: 2% auto;
+    border: 6px solid rgb(113, 89, 153);
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(55, 54, 132, 0.7);
+    color: #fff;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+
+/* events*/
+.upcoming-events{
+    box-sizing: border-box;
+    display: flex;
+
+
+}
+
+.child {
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(69, 135, 165);
+    color: #fff;
+    border: 5px solid #fff;
+    
+}
+  
+  .gospel-heading  {
+    color: #111111; /* Dark Gray for headings */
+    margin: 5px 0 5px
+  }
+  
+  .gospel-spans {
+    color: #4b4b4b; /* Dark Gray for event times */
+    font-weight: bold;
+  }
+  
+  .address p {
+    color: #fff; /* White for event details */
+    
+  }
+  
+  .join-link {
+    color: #fff; /* White for 'Join Us' link */
+    background-color: #1b28da; /* Dark Gray background for link */
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .join-link:hover {
+    background-color: #1d27bbc2;; /* Dark Gray background on hover */
+    text-decoration: none;
+  }
+  
+
+.donation-section {
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .donation-section h3 {
+    color: #111111;
+    margin-bottom: 10px;
+  }
+  
+  .donation-progress {
+    font-size: 24px;
+    color: #fff; /* orange color for emphasis */
+    margin-bottom: 15px;
+  }
+  
+  .donation-details {
+    font-size: 18px;
+    color: #4b4b4b;
+    margin-bottom: 20px;
+  }
+
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5fee0d; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 3%;
+  }
+  
+  .donate-button:hover {
+    background-color: #45a049; /* Darker Green */
+    text-decoration: none;
+  }
+  
+
+.bottom-link {
+    margin-top: 1%;
+}
+
+/* contact*/
+.contact-info {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+    display: flex;
+    gap: 20em;
+}
+
+/* Styling for the footer headings */
+.contact-info h3 {
+    color: #333; /* Change color as needed */
+    font-size: 17px; /* Adjust font size as needed */
+    
+}
+
+/* Styling for the footer paragraphs */
+.contact-info p {
+    color: #666; /* Change color as needed */
+    font-size: 12px; /* Adjust font size as needed */
+}
+
+/* Styling for the links */
+.contact-info a {
+    color: #007bff; /* Change color as needed */
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.map {
+    border-color: rgb(132, 121, 150);
+}
+
+
+
+
+
+
+
+
+
