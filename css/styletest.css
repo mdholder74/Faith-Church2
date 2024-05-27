@@ -5,13 +5,14 @@
 
     
 }
+/* Style rules for MOBILE viewport */
 
 /* Navigation */
 #deskstop-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(132, 121, 150);
+    background-color: rgb(121, 74, 197);
     color: white;
     padding: 020px;
 
@@ -78,12 +79,37 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+
+/* About Us */
 .section-align-center {
-    text-align: center;
-    padding-top: 3%;
-    background-color: rgb(132, 121, 150);
-    color: #fff;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  background-color: rgba(192, 192, 192, 0.295)
+
 }
+
+
+/* Service Hours */
+.service-hours {
+  text-align: center; /* Align content to the center */
+  background-color: rgba(192, 192, 192, 0.295);
+  margin-bottom: 20px; /* Increased margin-bottom for better separation */
+}
+
+.service-hours h2 {
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.service-hours p {
+  margin-bottom: 10px; /* Add some space between paragraphs */
+}
+
+.service-hours span {
+  font-weight: bold; /* Make the time span bold */
+}
+
+
 
 
 .heading {
@@ -92,37 +118,54 @@ body{
     
 }
 
-/*semons*/
+/* Sermons */
+.sermons-section{
+  text-align: center;
+  padding-top: 3%;
+  background-color: rgb(121, 74, 197);
+  color: #fff;
+
+}
 .sermon {
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 10px; /* Add some spacing between sermons */
-  }
-  
-  .sermon-author{
-    color: #111111; /* Dark Gray for headings */
-    margin-bottom: 5px;
-  }
-  
-  .sermon-links{
-    color: #fff; /* White for links */
-    text-decoration: none;
-  }
-  
-  .sermon-links:hover {
-    text-decoration: underline; /* Underline links on hover for emphasis */
-  }
-  
-  .sermon-links {
-    margin-top: 10px; /* Add some spacing between sermon title and links */
-  }
+  padding: 10px; /* Increased padding for better spacing */
+  border-radius: 8px;
+  margin-bottom: 20px; /* Increased margin-bottom for better separation */
+}
+
+.sermon h2.sermon-title {
+  margin-bottom: 5px; /* Reduced margin-bottom for better alignment */
+  color: #333; /* Slightly darker color for sermon titles */
+}
+.sermon-author {
+  color: #111111;
+
+}
+
+.sermon-links {
+  margin-top: 10px; /* Added margin-top for better spacing */
+}
+
+.sermon-links a {
+  display: inline-block; /* Added display property for better alignment */
+  padding: 5px 10px; /* Added padding for better clickability */
+  background-color: #007bff; /* Blue background for links */
+  color: #fff; /* White text color for links */
+  text-decoration: none;
+  border-radius: 5px; /* Rounded corners for links */
+  margin-right: 10px; /* Added margin-right for better separation */
+}
+
+.sermon-links a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
   
 
 /* elders*/
 .elders-section{
     text-align: center;
     padding-top: 3%;
-    background-color: rgb(132, 121, 150);
+    background-color: #794ac5;
     color: #fff;
 
 }
@@ -130,7 +173,7 @@ body{
 .elders-pictures {
     column-width:300px;
     column-count: 3;
-    background-color: rgb(132, 121, 150);
+    background-color: rgb(121, 74, 197);
     color: #fff;
     margin-bottom: 1%;
     padding-top: 3%;
@@ -139,7 +182,7 @@ figure {
     position: relative;
     max-width: 200px;
     margin: 2% auto;
-    border: 6px solid rgb(113, 89, 153);
+    border: 6px solid rgb(132, 121, 150);
 }
 
 figcaption {
@@ -170,7 +213,7 @@ figcaption {
     text-align: center;
     align-items: center;
     width: 50%;
-    background-color: rgb(69, 135, 165);
+    background-color: rgb(23, 161, 202);
     color: #fff;
     border: 5px solid #fff;
     
@@ -201,7 +244,7 @@ figcaption {
   }
   
   .join-link:hover {
-    background-color: #1d27bbc2;; /* Dark Gray background on hover */
+    background-color: #1d27bbc2; /* Dark Gray background on hover */
     text-decoration: none;
   }
   
@@ -258,26 +301,26 @@ figcaption {
 .contact-info {
     text-align: center;
     margin-top: 20px; /* Adjust margin as needed */
-    display: flex;
     gap: 20em;
+    background-color: rgb(23, 161, 202);
 }
 
 /* Styling for the footer headings */
 .contact-info h3 {
-    color: #333; /* Change color as needed */
-    font-size: 17px; /* Adjust font size as needed */
+    color: #111111; /* Change color as needed */
+    font-size: 20px; /* Adjust font size as needed */
     
 }
 
 /* Styling for the footer paragraphs */
 .contact-info p {
-    color: #666; /* Change color as needed */
-    font-size: 12px; /* Adjust font size as needed */
+    color: white; /* Change color as needed */
+    font-size: 16px; /* Adjust font size as needed */
 }
 
 /* Styling for the links */
 .contact-info a {
-    color: #007bff; /* Change color as needed */
+    color: white; /* Change color as needed */
     text-decoration: none;
 }
 
@@ -291,6 +334,31 @@ figcaption {
 }
 
 
+/*Media Query for TABLET Viewport*/
+@media screen and (min-width:550px),print {
+
+  } 
+
+
+/*Media Query for DESKTOP Viewport*/
+@media screen and (min-width:1015px),print {
+
+  }
+ 
+
+/* Media Query for LARGE DESKTOP Viewport*/
+@media screen and (min-width: 1921px) {
+
+}
+
+
+/*Media Query for PRINT*/
+@media print {
+  body {
+      background-color: #fff;
+      color: #000;
+  }
+}
 
 
 
